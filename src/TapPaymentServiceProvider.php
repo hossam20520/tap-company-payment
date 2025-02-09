@@ -22,6 +22,9 @@ class TapPaymentServiceProvider extends ServiceProvider
 			__DIR__ . '/Publishing/config.php',
 			'tap-payment'
 		);
+
+
+		Facade::alias('TapPayment', \Coopxl\TapPayment\Facade\TapPayment::class);
 	}
 
 
