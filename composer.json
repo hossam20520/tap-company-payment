@@ -1,6 +1,7 @@
 {
   "name": "coopxl/tapayment",
   "description": "Tap Payment REST API package for Laravel",
+    "type": "library",
   "license": "MIT",
   "authors": [
     {
@@ -9,7 +10,8 @@
       "homepage": "http://development.com/"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": "^8.2",
     "ext-curl": "*",
