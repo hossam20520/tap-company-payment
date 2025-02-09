@@ -3,6 +3,7 @@
 namespace Coopxl\TapPayment;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Facade;
 
 class TapPaymentServiceProvider extends ServiceProvider
 {
